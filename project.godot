@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Pong Basics Series"
-run/main_scene="res://pong-04/pong-04.tscn"
+run/main_scene="res://pong-05/pong-05.tscn"
 
 [display]
 
