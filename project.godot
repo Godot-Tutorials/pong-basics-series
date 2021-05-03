@@ -8,15 +8,56 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Paddle07",
+"class": "AiPaddle07",
+"language": "GDScript",
+"path": "res://pong-07/Paddle/AiPaddle.gd"
+}, {
+"base": "Node2D",
+"class": "Ball07",
+"language": "GDScript",
+"path": "res://pong-07/Ball/Ball.gd"
+}, {
+"base": "Resource",
+"class": "BoundBox07",
+"language": "GDScript",
+"path": "res://pong-07/Misc/BoundBox.gd"
+}, {
+"base": "Resource",
+"class": "Collisions07",
+"language": "GDScript",
+"path": "res://pong-07/Misc/Collisions.gd"
+}, {
+"base": "Node2D",
+"class": "Paddle07",
+"language": "GDScript",
+"path": "res://pong-07/Paddle/Paddle.gd"
+}, {
+"base": "Paddle07",
+"class": "PlayerPaddle07",
+"language": "GDScript",
+"path": "res://pong-07/Paddle/PlayerPaddle.gd"
+}, {
+"base": "Node2D",
+"class": "Text07",
+"language": "GDScript",
+"path": "res://pong-07/Misc/Text.gd"
+} ]
 _global_script_class_icons={
-
+"AiPaddle07": "",
+"Ball07": "",
+"BoundBox07": "",
+"Collisions07": "",
+"Paddle07": "",
+"PlayerPaddle07": "",
+"Text07": ""
 }
 
 [application]
 
 config/name="Pong Basics Series"
-run/main_scene="res://pong-05/pong-05.tscn"
+run/main_scene="res://pong-07/Pong-07.tscn"
 
 [display]
 
