@@ -14,10 +14,20 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://pong-07/Paddle/AiPaddle.gd"
 }, {
+"base": "Paddle08",
+"class": "AiPaddle08",
+"language": "GDScript",
+"path": "res://pong-08/Paddle/AiPaddle.gd"
+}, {
 "base": "Node2D",
 "class": "Ball07",
 "language": "GDScript",
 "path": "res://pong-07/Ball/Ball.gd"
+}, {
+"base": "Node2D",
+"class": "Ball08",
+"language": "GDScript",
+"path": "res://pong-08/Ball/Ball.gd"
 }, {
 "base": "Resource",
 "class": "BoundBox07",
@@ -25,39 +35,77 @@ _global_script_classes=[ {
 "path": "res://pong-07/Misc/BoundBox.gd"
 }, {
 "base": "Resource",
+"class": "BoundBox08",
+"language": "GDScript",
+"path": "res://pong-08/Misc/BoundBox.gd"
+}, {
+"base": "Resource",
 "class": "Collisions07",
 "language": "GDScript",
 "path": "res://pong-07/Misc/Collisions.gd"
+}, {
+"base": "Resource",
+"class": "Collisions08",
+"language": "GDScript",
+"path": "res://pong-08/Misc/Collisions.gd"
+}, {
+"base": "Resource",
+"class": "Math08",
+"language": "GDScript",
+"path": "res://pong-08/Misc/Math.gd"
 }, {
 "base": "Node2D",
 "class": "Paddle07",
 "language": "GDScript",
 "path": "res://pong-07/Paddle/Paddle.gd"
 }, {
+"base": "Node2D",
+"class": "Paddle08",
+"language": "GDScript",
+"path": "res://pong-08/Paddle/Paddle.gd"
+}, {
 "base": "Paddle07",
 "class": "PlayerPaddle07",
 "language": "GDScript",
 "path": "res://pong-07/Paddle/PlayerPaddle.gd"
 }, {
+"base": "Paddle08",
+"class": "PlayerPaddle08",
+"language": "GDScript",
+"path": "res://pong-08/Paddle/PlayerPaddle.gd"
+}, {
 "base": "Node2D",
 "class": "Text07",
 "language": "GDScript",
 "path": "res://pong-07/Misc/Text.gd"
+}, {
+"base": "Node2D",
+"class": "Text08",
+"language": "GDScript",
+"path": "res://pong-08/Misc/Text.gd"
 } ]
 _global_script_class_icons={
 "AiPaddle07": "",
+"AiPaddle08": "",
 "Ball07": "",
+"Ball08": "",
 "BoundBox07": "",
+"BoundBox08": "",
 "Collisions07": "",
+"Collisions08": "",
+"Math08": "",
 "Paddle07": "",
+"Paddle08": "",
 "PlayerPaddle07": "",
-"Text07": ""
+"PlayerPaddle08": "",
+"Text07": "",
+"Text08": ""
 }
 
 [application]
 
 config/name="Pong Basics Series"
-run/main_scene="res://pong-07/Pong-07.tscn"
+run/main_scene="res://pong-08/Pong-08.tscn"
 
 [display]
 
