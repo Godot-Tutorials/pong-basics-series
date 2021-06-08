@@ -24,6 +24,16 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://pong-09/Paddle/AiPaddle.gd"
 }, {
+"base": "Paddle11",
+"class": "AiPaddle11",
+"language": "GDScript",
+"path": "res://pong-11/Paddle/AiPaddle.gd"
+}, {
+"base": "AnimationPlayer",
+"class": "BackgroundManager11",
+"language": "GDScript",
+"path": "res://pong-11/Music/BackgroundManager.gd"
+}, {
 "base": "Node2D",
 "class": "Ball07",
 "language": "GDScript",
@@ -38,6 +48,11 @@ _global_script_classes=[ {
 "class": "Ball09",
 "language": "GDScript",
 "path": "res://pong-09/Ball/Ball.gd"
+}, {
+"base": "Node2D",
+"class": "Ball11",
+"language": "GDScript",
+"path": "res://pong-11/Ball/Ball.gd"
 }, {
 "base": "Resource",
 "class": "BoundBox07",
@@ -55,6 +70,11 @@ _global_script_classes=[ {
 "path": "res://pong-09/Misc/BoundBox.gd"
 }, {
 "base": "Resource",
+"class": "BoundBox11",
+"language": "GDScript",
+"path": "res://pong-11/Misc/BoundBox.gd"
+}, {
+"base": "Resource",
 "class": "Collisions07",
 "language": "GDScript",
 "path": "res://pong-07/Misc/Collisions.gd"
@@ -70,6 +90,11 @@ _global_script_classes=[ {
 "path": "res://pong-09/Misc/Collisions.gd"
 }, {
 "base": "Resource",
+"class": "Collisions11",
+"language": "GDScript",
+"path": "res://pong-11/Misc/Collisions.gd"
+}, {
+"base": "Resource",
 "class": "Math08",
 "language": "GDScript",
 "path": "res://pong-08/Misc/Math.gd"
@@ -78,6 +103,11 @@ _global_script_classes=[ {
 "class": "Math09",
 "language": "GDScript",
 "path": "res://pong-09/Misc/Math.gd"
+}, {
+"base": "Resource",
+"class": "Math11",
+"language": "GDScript",
+"path": "res://pong-11/Misc/Math.gd"
 }, {
 "base": "Node2D",
 "class": "Paddle07",
@@ -94,6 +124,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://pong-09/Paddle/Paddle.gd"
 }, {
+"base": "Node2D",
+"class": "Paddle11",
+"language": "GDScript",
+"path": "res://pong-11/Paddle/Paddle.gd"
+}, {
 "base": "Paddle07",
 "class": "PlayerPaddle07",
 "language": "GDScript",
@@ -109,6 +144,21 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://pong-09/Paddle/PlayerPaddle.gd"
 }, {
+"base": "Paddle11",
+"class": "PlayerPaddle11",
+"language": "GDScript",
+"path": "res://pong-11/Paddle/PlayerPaddle.gd"
+}, {
+"base": "AnimationPlayer",
+"class": "SoundManager11",
+"language": "GDScript",
+"path": "res://pong-11/Music/SoundManager.gd"
+}, {
+"base": "Resource",
+"class": "SoundResource11",
+"language": "GDScript",
+"path": "res://pong-11/Music/SoundResource.gd"
+}, {
 "base": "Node2D",
 "class": "Text07",
 "language": "GDScript",
@@ -123,37 +173,53 @@ _global_script_classes=[ {
 "class": "Text09",
 "language": "GDScript",
 "path": "res://pong-09/Misc/Text.gd"
+}, {
+"base": "Node2D",
+"class": "Text11",
+"language": "GDScript",
+"path": "res://pong-11/Misc/Text.gd"
 } ]
 _global_script_class_icons={
 "AiPaddle07": "",
 "AiPaddle08": "",
 "AiPaddle09": "",
+"AiPaddle11": "",
+"BackgroundManager11": "",
 "Ball07": "",
 "Ball08": "",
 "Ball09": "",
+"Ball11": "",
 "BoundBox07": "",
 "BoundBox08": "",
 "BoundBox09": "",
+"BoundBox11": "",
 "Collisions07": "",
 "Collisions08": "",
 "Collisions09": "",
+"Collisions11": "",
 "Math08": "",
 "Math09": "",
+"Math11": "",
 "Paddle07": "",
 "Paddle08": "",
 "Paddle09": "",
+"Paddle11": "",
 "PlayerPaddle07": "",
 "PlayerPaddle08": "",
 "PlayerPaddle09": "",
+"PlayerPaddle11": "",
+"SoundManager11": "",
+"SoundResource11": "",
 "Text07": "",
 "Text08": "",
-"Text09": ""
+"Text09": "",
+"Text11": ""
 }
 
 [application]
 
 config/name="Pong Basics Series"
-run/main_scene="res://pong-09/Pong-09.tscn"
+run/main_scene="res://pong-11/pong-11.tscn"
 
 [display]
 
