@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/LosePoint.wav-4ae6455811a674c4d848db47952895db.sample"
+
+[deps]
+
+source_file="res://Music/LosePoint.wav"
+dest_files=[ "res://.import/LosePoint.wav-4ae6455811a674c4d848db47952895db.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/WinPoint.wav-606c21fd71f54f73ce881c195b8c7907.sample"
+
+[deps]
+
+source_file="res://Music/WinPoint.wav"
+dest_files=[ "res://.import/WinPoint.wav-606c21fd71f54f73ce881c195b8c7907.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
