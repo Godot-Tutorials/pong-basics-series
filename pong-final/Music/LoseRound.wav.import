@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/LoseRound.wav-5b050ea45a0e695744a0f62280032f90.sample"
+
+[deps]
+
+source_file="res://pong-final/Music/LoseRound.wav"
+dest_files=[ "res://.import/LoseRound.wav-5b050ea45a0e695744a0f62280032f90.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

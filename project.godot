@@ -9,6 +9,11 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Paddle",
+"class": "AiPaddle",
+"language": "GDScript",
+"path": "res://pong-final/Paddle/AiPaddle.gd"
+}, {
 "base": "Paddle07",
 "class": "AiPaddle07",
 "language": "GDScript",
@@ -30,9 +35,19 @@ _global_script_classes=[ {
 "path": "res://pong-11/Paddle/AiPaddle.gd"
 }, {
 "base": "AnimationPlayer",
+"class": "BackgroundManager",
+"language": "GDScript",
+"path": "res://pong-final/Music/BackgroundManager.gd"
+}, {
+"base": "AnimationPlayer",
 "class": "BackgroundManager11",
 "language": "GDScript",
 "path": "res://pong-11/Music/BackgroundManager.gd"
+}, {
+"base": "Node2D",
+"class": "Ball",
+"language": "GDScript",
+"path": "res://pong-final/Ball/Ball.gd"
 }, {
 "base": "Node2D",
 "class": "Ball07",
@@ -55,6 +70,11 @@ _global_script_classes=[ {
 "path": "res://pong-11/Ball/Ball.gd"
 }, {
 "base": "Resource",
+"class": "BoundBox",
+"language": "GDScript",
+"path": "res://pong-final/Misc/BoundBox.gd"
+}, {
+"base": "Resource",
 "class": "BoundBox07",
 "language": "GDScript",
 "path": "res://pong-07/Misc/BoundBox.gd"
@@ -73,6 +93,11 @@ _global_script_classes=[ {
 "class": "BoundBox11",
 "language": "GDScript",
 "path": "res://pong-11/Misc/BoundBox.gd"
+}, {
+"base": "Resource",
+"class": "Collisions",
+"language": "GDScript",
+"path": "res://pong-final/Misc/Collisions.gd"
 }, {
 "base": "Resource",
 "class": "Collisions07",
@@ -95,6 +120,11 @@ _global_script_classes=[ {
 "path": "res://pong-11/Misc/Collisions.gd"
 }, {
 "base": "Resource",
+"class": "Math",
+"language": "GDScript",
+"path": "res://pong-final/Misc/Math.gd"
+}, {
+"base": "Resource",
 "class": "Math08",
 "language": "GDScript",
 "path": "res://pong-08/Misc/Math.gd"
@@ -108,6 +138,11 @@ _global_script_classes=[ {
 "class": "Math11",
 "language": "GDScript",
 "path": "res://pong-11/Misc/Math.gd"
+}, {
+"base": "Node2D",
+"class": "Paddle",
+"language": "GDScript",
+"path": "res://pong-final/Paddle/Paddle.gd"
 }, {
 "base": "Node2D",
 "class": "Paddle07",
@@ -128,6 +163,11 @@ _global_script_classes=[ {
 "class": "Paddle11",
 "language": "GDScript",
 "path": "res://pong-11/Paddle/Paddle.gd"
+}, {
+"base": "Paddle",
+"class": "PlayerPaddle",
+"language": "GDScript",
+"path": "res://pong-final/Paddle/PlayerPaddle.gd"
 }, {
 "base": "Paddle07",
 "class": "PlayerPaddle07",
@@ -150,14 +190,29 @@ _global_script_classes=[ {
 "path": "res://pong-11/Paddle/PlayerPaddle.gd"
 }, {
 "base": "AnimationPlayer",
+"class": "SoundManager",
+"language": "GDScript",
+"path": "res://pong-final/Music/SoundManager.gd"
+}, {
+"base": "AnimationPlayer",
 "class": "SoundManager11",
 "language": "GDScript",
 "path": "res://pong-11/Music/SoundManager.gd"
 }, {
 "base": "Resource",
+"class": "SoundResource",
+"language": "GDScript",
+"path": "res://pong-final/Music/SoundResource.gd"
+}, {
+"base": "Resource",
 "class": "SoundResource11",
 "language": "GDScript",
 "path": "res://pong-11/Music/SoundResource.gd"
+}, {
+"base": "Node2D",
+"class": "Text",
+"language": "GDScript",
+"path": "res://pong-final/Misc/Text.gd"
 }, {
 "base": "Node2D",
 "class": "Text07",
@@ -180,36 +235,47 @@ _global_script_classes=[ {
 "path": "res://pong-11/Misc/Text.gd"
 } ]
 _global_script_class_icons={
+"AiPaddle": "",
 "AiPaddle07": "",
 "AiPaddle08": "",
 "AiPaddle09": "",
 "AiPaddle11": "",
+"BackgroundManager": "",
 "BackgroundManager11": "",
+"Ball": "",
 "Ball07": "",
 "Ball08": "",
 "Ball09": "",
 "Ball11": "",
+"BoundBox": "",
 "BoundBox07": "",
 "BoundBox08": "",
 "BoundBox09": "",
 "BoundBox11": "",
+"Collisions": "",
 "Collisions07": "",
 "Collisions08": "",
 "Collisions09": "",
 "Collisions11": "",
+"Math": "",
 "Math08": "",
 "Math09": "",
 "Math11": "",
+"Paddle": "",
 "Paddle07": "",
 "Paddle08": "",
 "Paddle09": "",
 "Paddle11": "",
+"PlayerPaddle": "",
 "PlayerPaddle07": "",
 "PlayerPaddle08": "",
 "PlayerPaddle09": "",
 "PlayerPaddle11": "",
+"SoundManager": "",
 "SoundManager11": "",
+"SoundResource": "",
 "SoundResource11": "",
+"Text": "",
 "Text07": "",
 "Text08": "",
 "Text09": "",
@@ -219,7 +285,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Pong Basics Series"
-run/main_scene="res://pong-11/pong-11.tscn"
+run/main_scene="res://pong-final/pong-final.tscn"
 
 [display]
 
