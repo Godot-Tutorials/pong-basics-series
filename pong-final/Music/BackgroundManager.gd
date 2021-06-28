@@ -18,7 +18,7 @@ func _ready() -> void:
 		var backgroundMusicName: String = key
 		var backgroundLength: float = backgroundFile.get_length()
 		self.add_animation(backgroundMusicName, sounds.createSound(backgroundFile, backgroundPlayer, backgroundLength, true))
-		playSong() 
+	playSong() 
 	
 
 func playSong(songName := "BackgroundMusic") -> void:
